@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10a10592-918b-4cf8-b1c8-7a69ccaf1270" name="Changes" comment="adding README and some Statistics" />
+    <list default="true" id="10a10592-918b-4cf8-b1c8-7a69ccaf1270" name="Changes" comment="cleaning">
+      <change beforePath="$PROJECT_DIR$/src/main/java/JAVAEE/PrimeCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JAVAEE/PrimeCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JAVAEE/PrimeWorkerCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JAVAEE/PrimeWorkerCallable.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727803840696</updated>
-      <workItem from="1727803843223" duration="367000" />
+      <workItem from="1727803843223" duration="609000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -115,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727804177123</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="cleaning">
+      <option name="closed" value="true" />
+      <created>1727804266033</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727804266033</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +152,7 @@
     <MESSAGE value="add Segmented Sieve of Atkin algorithm" />
     <MESSAGE value="add unit tests to check the functionality" />
     <MESSAGE value="adding README and some Statistics" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding README and some Statistics" />
+    <MESSAGE value="cleaning" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaning" />
   </component>
 </project>

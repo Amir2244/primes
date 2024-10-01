@@ -29,7 +29,7 @@ public class PrimeCalculator {
             int threadLow = low + i * rangePerThread;
             int threadHigh = (i == numThreads - 1) ? high : threadLow + rangePerThread - 1;
             // you can change the algorithm in this section
-            PrimeWorkerCallable worker = new PrimeWorkerCallable(threadLow, threadHigh, new SieveOfAtkin(threadLow, threadHigh));
+            PrimeWorkerCallable worker = new PrimeWorkerCallable( new SieveOfAtkin(threadLow, threadHigh));
             futures.add(executor.submit(worker));
         }
 

@@ -6,7 +6,7 @@ import java.util.concurrent.Callable;
 public class PrimeWorkerCallable implements Callable<List<Integer>> {
     private final PrimeAlgorithm algorithm;
 
-    public PrimeWorkerCallable(int low, int high, PrimeAlgorithm algorithm) {
+    public PrimeWorkerCallable(PrimeAlgorithm algorithm) {
         this.algorithm = algorithm;
     }
 
